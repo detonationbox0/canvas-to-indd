@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Canvas Coordinates to InDesign Geometric Bounds Playground</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="tshirt-container">
+
+        <img id="tshirt" src="https://ourcodeworld.com/public-media/gallery/gallery-5d5afd3f1c7d6.png" />
+        <div id="canvas"></div> <!--Absolute Positioned overtop T-Shirt-->
+        
+        <!-- Questions -->
+        <div id="options">
+            <p class="label">Color:</p>
+            <select id="color">
+                <option value="#000" default>Black</option>
+                <option value="crimson">Crimson</option>
+                <option value="cornflowerblue">Cornflower Blue</option>
+                <option value="darkorchid">Dark Orchid</option>
+                <option value="forestgreen">Forest Green</option>
+                <option value="midnightblue">Midnight Blue</option>
+            </select><br />
+            <button id="add">Add Logo</button>
+            <p id="konva-coords">Konva Coordinates: </p>
+            <p id="indd-coords">InDesign Bounds: </p>
+
+
+            <pre id="inddCode">
+
+
+            </pre>
+
+        </div>
+    </div>
+
+    <!--Konva ↓-->
+    <script src="https://unpkg.com/konva@8/konva.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script type="text/javascript" src="app.js"></script>
+
+
+
+</body>
+
+</html>

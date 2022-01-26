@@ -1,0 +1,26 @@
+
+#tshirt-container {
+    display:flex;
+  }
+  
+  #tshirt {
+    background-color:#000;
+  }
+  
+  .label {
+    margin-bottom:10px;
+  }
+  
+  button {
+    margin-top:20px;
+  }
+  
+  #canvas {
+    position:absolute;
+    left:120px;
+    top:90px;
+  }
+  
+  
+  
+  
